@@ -1,0 +1,23 @@
+.group-buttons {
+    .row {
+        .col {
+            .table {
+                tr {
+                    &:nth-child(1) {
+                        background-color: #6c757dab;
+                    }
+                    td {
+                        padding: 0;
+                        .btn {
+                            width: 100%;
+                            border-radius: 0;
+                        }
+                        h4 {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row navs">
+            <div class="col">
+                <ul class="nav nav-pills">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navs-a" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ЗАГРУЗКА ОТЧЕТА</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Загрузить счет</a>
+                            <a class="dropdown-item" href="index2.html">Создать счет</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navs-a" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">СЕРВИС</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navs-a" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ПРОСМОТР</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navs-a" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-cog"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="index3.html">Панель управления</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link navs-a" href="#">ВЫХОД ИЗ СИСТЕМЫ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="alert">
+                    <h3>БД Единая таблица регистрации счетов</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Начальная дата</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option value="1">01.06.2018</option>
+                        <option value="2">02.06.2018</option>
+                        <option value="3">03.06.2018</option>
+                    </select>
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect02">Конечная дата</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect02">
+                        <option value="1">30.06.2018</option>
+                        <option value="2">29.06.2018</option>
+                        <option value="3">28.06.2018</option>
+                    </select>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Номер клиента</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    <span class="input-group-text mail">E-Mail</span>
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <input type="checkbox" aria-label="Checkbox for following text input">
+                        </div>
+                    </div>
+                    <span class="input-group-text mail">No send E-Mail</span>
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <input type="checkbox" aria-label="Checkbox for following text input">
+                        </div>
+                    </div>
+                    <span class="input-group-text mail">Send E-Mail</span>
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <input type="checkbox" aria-label="Checkbox for following text input">
+                        </div>
+                    </div>
+                </div>
+                <div class="filter">
+                    <button type="button" class="btn btn-sm">Фильтр</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="table-responsive table-container">
+                    <table class="table table-bordered table-hover">
+                        <thead class="bg-secondary">
+                            <tr>
+                                <th scope="col">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </th>
+                                <th scope="col">regid</th>
+                                <th scope="col">Номер клиента</th>
+                                <th scope="col">Имя клиента</th>
+                                <th scope="col">№ транзакции</th>
+                                <th scope="col">Сумма транзакции без НДС</th>
+                                <th scope="col">НДС</th>
+                                <th scope="col">Сумма транзакции с НДС</th>
+                                <th scope="col">Дата транзакции</th>
+                                <th scope="col">Валюта</th>
+                                <th scope="col">Номер карты</th>
+                                <th scope="col">Действие карты</th>
+                                <th scope="col">Вид карты</th>
+                                <th scope="col">Тэудат Зэут</th>
+                                <th scope="col">E-mail</th>
+                                <th scope="col">Номер телефона</th>
+                                <th scope="col">Город</th>
+                                <th scope="col">Улица</th>
+                                <th scope="col">Дом</th>
+                                <th scope="col">Примечание</th>
+                                <th scope="col">Налог</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="bg-secondary" scope="col">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </th>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary" scope="col">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </th>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary" scope="col">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </th>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary" scope="col">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </th>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary" scope="col">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </th>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-secondary" scope="col">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </th>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                                <td scope="col">First</td>
+                                <td scope="col">Last</td>
+                                <td scope="col">Handle</td>
+                                <td scope="col">#</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form class="form-inline">
+                    <label class="my-1 mr-2">Действие:</label>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Получить транзакции в одном PDF</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary">Выполнить</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container borders">
+        <div class="row">
+            <div class="col">
+                <h3>Окно состояния:</h3>
+                <p>
+                    <script type="text/javascript">
+                        var d = new Date();
+                        var day = d.getDate();
+                        var month = d.getMonth() + 1;
+                        var year = d.getFullYear();
+                        document.write(day + "." + month + "." + year);
+                    </script>
+
+                    <script type="text/javascript">
+                        var t = new Date();
+                        document.write(t.getUTCHours());
+                        document.write(":");
+                        document.write(t.getUTCMinutes());
+                        document.write(":");
+                        document.write(t.getUTCSeconds());
+                    </script>
+                </p>
+                <p>В диспетчере загружено:
+                    <span>0 задач</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
