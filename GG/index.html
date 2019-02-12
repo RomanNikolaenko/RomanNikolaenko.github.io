@@ -1,0 +1,782 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- <link rel="shortcut icon" href="img/favicon.png" /> -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>GG</title>
+
+    <!-- Поддержка старых браузеров-->
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+    <div class="container-fluid header-top">
+        <div class="page">
+            <div class="row">
+                <div class="col-xl-1"></div>
+                <div class="information col-xl-9">
+                    <div class="info-left col-xl-8">
+                        <a href="tel:+380680680608"><img src="img/call.png" alt="">(068) 068 06 08</a>
+                        <a href="tel:+380680680608"><img src="img/call.png" alt="">(068) 068 06 08</a>
+                        <div class="forMobile">
+                            <div class="wrapper">
+                                <dl class="dropdown dropleft">
+                                    <dt><a href="javascript:void(0);"><span><span></span><span>Украина</span></span></a></dt>
+                                    <dd>
+                                        <ul style="display: none;">
+                                            <li><a href="javascript:void(0);"><span></span><span>Россия</span></a></li>
+                                            <li><a href="javascript:void(0);"><span></span><span>Италия</span></a></li>
+                                            <li><a href="javascript:void(0);"><span></span><span>Англия</span></a></li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="wrapper">
+                                <dl class="dropdown dropright">
+                                    <dt><a href="javascript:void(0);"><span><span style="background-image: url(img/position.png)"></span><span>Киев</span></span></a></dt>
+                                    <dd>
+                                        <ul style="display: none;">
+                                            <li><a href="javascript:void(0);"><span style="background-image: url(img/position.png)"></span><span>Днепр</span></a></li>
+                                            <li><a href="javascript:void(0);"><span style="background-image: url(img/position.png)"></span><span>Львов</span></a></li>
+                                            <li><a href="javascript:void(0);"><span style="background-image: url(img/position.png)"></span><span>Одесса</span></a></li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-right col-xl-4">
+                        <select class="form-control">
+                            <option>RU</option>
+                            <option>UA</option>
+                            <option>UK</option>
+                        </select>
+                        <select class="form-control">
+                            <option>USD</option>
+                            <option>UAH</option>
+                            <option>RUB</option>
+                        </select>
+                        <button type="button" class="btn"><img src="img/sign-in.png" alt="">Войти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid header">
+        <div class="page">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light col-xl-10">
+                    <img src="img/logo.jpg" alt="">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col-xl-4"></div>
+                    <div class="collapse navbar-collapse col-xl-6" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">О нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Отзывы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Блог</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid calendar">
+        <div class="page">
+            <div class="row">
+                <div class="calendar-item col-xl-10">
+                    <div class="calendar-item-left col-xl-5">
+                        <form action="">
+                            <h2>Подобрать автомобиль</h2>
+                            <div class="calendar-select">
+                                <div class="wrapper">
+                                    <dl class="dropdown dropcounty">
+                                        <dt><a href="javascript:void(0);"><span><span style="background-image: url(img/ukraine.png); background-position: center;"></span><span>Украина</span></span></a></dt>
+                                        <dd>
+                                            <ul style="display: none;">
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/ukraine.png); background-position: center;"></span><span>Россия</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/ukraine.png); background-position: center;"></span><span>Италия</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/ukraine.png); background-position: center;"></span><span>Англия</span></a></li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <label class="big">Подача</label>
+                                <div class="wrapper">
+                                    <dl class="dropdown dropcity">
+                                        <dt><a href="javascript:void(0);"><span><span style="background-image: url(img/dropcity.png); background-position: center;"></span><span>Киев</span></span></a></dt>
+                                        <dd>
+                                            <ul style="display: none;">
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/dropcity.png); background-position: center;"></span><span>Днепр</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/dropcity.png); background-position: center;"></span><span>Львов</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/dropcity.png); background-position: center;"></span><span>Одесса</span></a></li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <div class="wrapper">
+                                    <dl class="dropdown dateOne">
+                                        <dt><a href="javascript:void(0);"><span><span style="background-image: url(img/date.png); background-position: center;"></span><span>Дата</span></span></a></dt>
+                                        <dd>
+                                            <ul style="display: none;">
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/date.png); background-position: center;"></span><span>Дата</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/date.png); background-position: center;"></span><span>Дата</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/date.png); background-position: center;"></span><span>Дата</span></a></li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="wrapper">
+                                    <dl class="dropdown clockOne">
+                                        <dt><a href="javascript:void(0);"><span><span style="background-image: url(img/clock.png); background-position: center;"></span><span>Время</span></span></a></dt>
+                                        <dd>
+                                            <ul style="display: none;">
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/clock.png); background-position: center;"></span><span>Время</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/clock.png); background-position: center;"></span><span>Время</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/clock.png); background-position: center;"></span><span>Время</span></a></li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" id="customControlAutosizing">
+                                <label for="customControlAutosizing">Возврат в другом городе</label>
+                            </div>
+                            <label class="big return">Возврат</label>
+                            <div class="time">
+                                <div class="wrapper">
+                                    <dl class="dropdown dateTwo">
+                                        <dt><a href="javascript:void(0);"><span><span style="background-image: url(img/date.png); background-position: center;"></span><span>Дата</span></span></a></dt>
+                                        <dd>
+                                            <ul style="display: none;">
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/date.png); background-position: center;"></span><span>Дата</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/date.png); background-position: center;"></span><span>Дата</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/date.png); background-position: center;"></span><span>Дата</span></a></li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="wrapper">
+                                    <dl class="dropdown clockTwo">
+                                        <dt><a href="javascript:void(0);"><span><span style="background-image: url(img/clock.png); background-position: center;"></span><span>Время</span></span></a></dt>
+                                        <dd>
+                                            <ul style="display: none;">
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/clock.png); background-position: center;"></span><span>Время</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/clock.png); background-position: center;"></span><span>Время</span></a></li>
+                                                <li><a href="javascript:void(0);"><span style="background-image: url(img/clock.png); background-position: center;"></span><span>Время</span></a></li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" id="customControlAutosizing">
+                                <label for="customControlAutosizing">Показать таблицу</label>
+                            </div>
+                            <div class="butt">
+                                <button type="button" class="btn btn-danger">Выбрать</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="calendar-item-right col-xl-6">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="5000">
+                                    <h2>Все прокатные компании Украины <br> на одном сайте</h2>
+                                    <p>Разнообразный и богатый опыт укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Таким образом сложившаяся структура организации играет важную роль в формировании направлений.</p>
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <h2>Все прокатные компании Украины <br> на одном сайте</h2>
+                                    <p>Разнообразный и богатый опыт укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Таким образом сложившаяся структура организации играет важную роль в формировании направлений.</p>
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <h2>Все прокатные компании Украины <br> на одном сайте</h2>
+                                    <p>Разнообразный и богатый опыт укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Таким образом сложившаяся структура организации играет важную роль в формировании направлений.</p>
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <h2>Все прокатные компании Украины <br> на одном сайте</h2>
+                                    <p>Разнообразный и богатый опыт укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Таким образом сложившаяся структура организации играет важную роль в формировании направлений.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid company">
+        <div class="page">
+            <div class="row">
+                <div class="company-item col-xl-10">
+                    <h2>Все прокатные компании Украины в одном сайте</h2>
+                    <p>Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание систем массового участия. С другой стороны дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки новых предложений.</p>
+                    <div class="company-image">
+                        <img src="img/carRentUa.png" alt="">
+                        <img src="img/race.png" alt="">
+                        <img src="img/rental.png" alt="">
+                        <img src="img/norscors.png" alt="">
+                        <img src="img/rentdrive.png" alt="">
+                        <img src="img/rentUacar.png" alt="">
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid slider">
+            <div class="page">
+                <div class="row">
+                    <h2 class="col-xl-12">Лидеры проката</h2>
+                    <div class="slider-items col-xl-10">
+                        <div class="card">
+                            <h5 class="card-title">Днепр</h5>
+                            <img src="img/car.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button type="button" class="btn">От 19$ сутки</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">PEUGEOT 308</h5>
+                            <img src="img/car.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button type="button" class="btn">От 19$ сутки</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">Киев</h5>
+                            <img src="img/car.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button type="button" class="btn">От 19$ сутки</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">PEUGEOT 308</h5>
+                            <img src="img/car.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button type="button" class="btn">От 19$ сутки</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">Львов</h5>
+                            <img src="img/car.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button type="button" class="btn">От 19$ сутки</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-title">PEUGEOT 308</h5>
+                            <img src="img/car.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button type="button" class="btn">От 19$ сутки</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid rent">
+            <div class="alert col-xl-10" role="alert">
+                Аренда авто в Украине
+            </div>
+            <div class="page">
+                <div class="row">
+                    <div class="card-deck col-xl-10">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>Горячие</h5>
+                                    <img src="img/city.png" alt="">
+                        </div>
+                                    <div class="card-text">
+                                        <a href="#">
+                                <span>
+                                        <p>Прокат авто Львов</p>
+                                        <p>25$</p>
+                                </span>
+                            </a>
+                                    </div>
+                                    <div class="card-text">
+                                        <a href="#">
+                                    <span>
+                                            <p>Прокат авто Львов</p>
+                                            <p>25$</p>
+                                    </span>
+                            </a>
+                                    </div>
+                                    <div class="card-text">
+                                        <a href="#">
+                                        <span>
+                                                <p>Прокат авто Львов</p>
+                                                <p>25$</p>
+                                        </span>
+                                    </a>
+                                    </div>
+                                    <div class="card-text">
+                                        <a href="#">
+                                        <span>
+                                                <p>Прокат авто Львов</p>
+                                                <p>25$</p>
+                                        </span>
+                                    </a>
+                                    </div>
+                                    <div class="card-text">
+                                        <a href="#">
+                                        <span>
+                                                <p>Прокат авто Львов</p>
+                                                <p>25$</p>
+                                        </span>
+                                    </a>
+                                    </div>
+                                    <div class="card-text">
+                                        <a href="#">
+                                        <span>
+                                                <p>Прокат авто Львов</p>
+                                                <p>25$</p>
+                                        </span>
+                                    </a>
+                                    </div>
+                                    <div class="card-text">
+                                        <a href="#">
+                                        <span>
+                                                <p>Прокат авто Львов</p>
+                                                <p>25$</p>
+                                        </span>
+                                    </a>
+                                    </div>
+                                    <div class="card-text">
+                                        <a href="#">
+                                        <span>
+                                                <p>Прокат авто Львов</p>
+                                                <p>25$</p>
+                                        </span>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h5>Авто</h5>
+                                        <img src="img/car.png" alt="">
+                        </div>
+                                        <div class="card-text">
+                                            <a href="#">
+                                    <span>
+                                            <p>Прокат авто Львов</p>
+                                            <p>25$</p>
+                                    </span>
+                                </a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="#">
+                                        <span>
+                                                <p>Прокат авто Львов</p>
+                                                <p>25$</p>
+                                        </span>
+                                </a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h5>Страна</h5>
+                                            <img src="img/map.png" alt="">
+                        </div>
+                                            <div class="card-text">
+                                                <a href="#">
+                                    <span>
+                                            <p>Прокат авто Львов</p>
+                                            <p>25$</p>
+                                    </span>
+                                </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <a href="#">
+                                        <span>
+                                                <p>Прокат авто Львов</p>
+                                                <p>25$</p>
+                                        </span>
+                                </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <a href="#">
+                                            <span>
+                                                    <p>Прокат авто Львов</p>
+                                                    <p>25$</p>
+                                            </span>
+                                        </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid use">
+                        <div class="page">
+                            <div class="row">
+                                <h2 class="text col-xl-12">Как пользоваться</h2>
+                                <div class="background"></div>
+                                <div class="col-lg-xl main">
+                                    <div class="one col-xl-12">
+                                        <div class="main-left col-xl-6 col-xs-12">
+                                            <div class="main-item">
+                                                <p>Шаг1:</p>
+                                                <h2>Выберите место и время<span>________________________________</span></h2>
+                                            </div>
+                                            <div class="main-img">
+                                                <img class="imac" src="img/imac1.png" alt="">
+                                                <img class="arrow" src="img/arrow-left.png" alt="">
+                        </div>
+                                            </div>
+                                            <div class="main-right col-xl-6">
+                                                <div class="main-item-right">
+                                                    <p><span>_____________________________________</span>Шаг2:</p>
+                                                    <h2>Найдите лучшее авто по лучшей цене</h2>
+                                                </div>
+                                                <div class="main-img">
+                                                    <img class="arrow" src="img/arrow-right.png" alt="">
+                                                    <img class="imac" src="img/imac2.png" alt="">
+                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="two col-xl-12">
+                                                <div class="main-left main-left-top col-xl-6 col-xs-12">
+                                                    <div class="main-item">
+                                                        <p>Шаг3:</p>
+                                                        <h2>Введите контактные данные<span>____________________________</span></h2>
+                                                    </div>
+                                                    <div class="main-img">
+                                                        <img class="imac" src="img/imac1.png" alt="">
+                                                        <img class="arrow" src="img/arrow-left.png" alt="">
+                        </div>
+                                                    </div>
+                                                    <div class="main-right main-right-top col-xl-6">
+                                                        <div class="main-item-right col-xl-12">
+                                                            <p><span>_________________________________________________</span>Шаг4:</p>
+                                                            <h2>Выберите способ оплаты</h2>
+                                                        </div>
+                                                        <div class="main-img">
+                                                            <img class="arrow" src="img/arrow-right.png" alt="">
+                                                            <img class="imac" src="img/imac2.png" alt="">
+                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid accordion">
+                                        <div class="page">
+                                            <div class="row">
+                                                <h2 class="text col-xl-12">Часто задаваемые вопросы</h2>
+                                                <div class="accordionTitle accordionTitleOne col-xl-4">
+                                                    <h3 class="active">
+                    А что если?
+                    <div class="collapseIcon">–</div>
+                </h3>
+                                                    <div style="display: block;">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                                    </div>
+                                                    <h3 class="">
+                    А что если?
+                    <div class="collapseIcon">+</div>
+                    </h3>
+                                                    <div style="display: none;">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-1"></div>
+                                                <div class="accordionTitle accordionTitleTwo col-xl-4">
+                                                    <h3 class="">
+                    А что если?
+                    <div class="collapseIcon">–</div>
+                </h3>
+                                                    <div style="display: none;">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                                    </div>
+                                                    <h3 class="">
+                    А что если?
+                    <div class="collapseIcon">+</div>
+                </h3>
+                                                    <div style="display: none;">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                                    </div>
+                                                </div>
+                                                <a class="col-xl-9" href="#">Посмотреть все</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid reviews">
+                                        <div class="page">
+                                            <div class="row">
+                                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                                        <a href="#">Посмотреть</a>
+                                                    </ol>
+                                                    <h2>Отзывы</h2>
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-inner-block">
+                                                            <div class="carousel-item active" data-interval="10000">
+                                                                <div class="flex">
+                                                                    <div class="carousel-item-left col-lg-2 col-xs-12">
+                                                                        <img src="img/client.png" class="d-block w-100" alt="client">
+                                                                        <p>Lorem ipsum</p>
+                                                                    </div>
+                                                                    <div class="carousel-item-right col-lg-9 col-xs-12">
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                                                        <div class="rating">
+                                                                            <p>Киев</p>
+                                                                            <span><img src="img/rating.png" alt=""></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item" data-interval="2000">
+                                                                <div class="flex">
+                                                                    <div class="carousel-item-left col-lg-2">
+                                                                        <img src="img/client.png" class="d-block w-100" alt="client">
+                                                                        <p>Lorem ipsum</p>
+                                                                    </div>
+                                                                    <div class="carousel-item-right col-lg-9">
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                                                        <div class="rating">
+                                                                            <p>Киев</p>
+                                                                            <span><img src="img/rating.png" alt=""></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item" data-interval="2000">
+                                                                <div class="flex">
+                                                                    <div class="carousel-item-left col-lg-2">
+                                                                        <img src="img/client.png" class="d-block w-100" alt="client">
+                                                                        <p>Lorem ipsum</p>
+                                                                    </div>
+                                                                    <div class="carousel-item-right col-lg-9">
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                                                        <div class="rating">
+                                                                            <p>Киев</p>
+                                                                            <span><img src="img/rating.png" alt=""></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item" data-interval="2000">
+                                                                <div class="flex">
+                                                                    <div class="carousel-item-left col-lg-2">
+                                                                        <img src="img/client.png" class="d-block w-100" alt="client">
+                                                                        <p>Lorem ipsum</p>
+                                                                    </div>
+                                                                    <div class="carousel-item-right col-lg-9">
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                                                        <div class="rating">
+                                                                            <p>Киев</p>
+                                                                            <span><img src="img/rating.png" alt=""></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid footer">
+                                        <div class="page">
+                                            <div class="row">
+                                                <div class="footer-blocks">
+                                                    <div class="col-xl-2 blocks-item">
+                                                        <a href="#">Home</a>
+                                                        <a href="#">Pricing</a>
+                                                        <a href="#">About</a>
+                                                        <a href="#">Blog</a>
+                                                    </div>
+                                                    <div class="col-xl-2 blocks-item">
+                                                        <a href="#">Home</a>
+                                                        <a href="#">Pricing</a>
+                                                        <a href="#">About</a>
+                                                        <a href="#">Blog</a>
+                                                    </div>
+                                                    <div class="col-xl-2 blocks-item">
+                                                        <a href="#">Home</a>
+                                                        <a href="#">Pricing</a>
+                                                        <a href="#">About</a>
+                                                        <a href="#">Blog</a>
+                                                    </div>
+                                                    <div class="col-xl-2 blocks-item">
+                                                        <a href="#">Home</a>
+                                                        <a href="#">Pricing</a>
+                                                        <a href="#">About</a>
+                                                        <a href="#">Blog</a>
+                                                    </div>
+                                                    <div class="col-xl-2 blocks-item-payment">
+                                                        <p>Телефон</p>
+                                                        <a href="tel:+380680680608">(068) 068 06 08</a>
+                                                        <a href="tel:+380680680608">(068) 068 06 08</a>
+                                                        <div class="payment">
+                                                            <img src="img/visa.png" alt="visa">
+                                                            <img src="img/mastercard.png" alt="mastercard">
+                    </div>
+                                                            <div class="social">
+                                                                <div><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                                                                <div><a href="#"><i class="fab fa-tumblr"></i></a></div>
+                                                                <div><a href="#"><i class="fab fa-google-plus-g"></i></a></div>
+                                                                <div><a href="#"><i class="fab fa-vk"></i></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+                                        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+                                        <script src="js/script-min.js"></script>
+</body>
+
+</html>
