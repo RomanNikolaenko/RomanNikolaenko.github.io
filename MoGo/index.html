@@ -1,789 +1,1054 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>MoGo</title>
-	<meta name="description" content="MoGo">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="logo.png" />
 
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css">
-	<link rel="stylesheet" href="css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+    <!-- <link rel="canonical" href="" />
+    <link rel="alternate" hreflang="uk" href="" /> -->
+
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/libs.css">
+
+    <title>MoGo</title>
+
+    <!-- Поддержка старых браузеров-->
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+
 <body>
 
-	<header class="container-header">
-
-	   	<div class="row">
-	   		<div class="nav">
-	   			<div class="logo">
-			        <a href="index.html"><img src="img/logo.png" alt=""></a>
-			    </div>
-	
-			   	<nav id="main-nav-wrap" class="navigation">
-					<ul class="main-navigation">
-						<li><a class="smoothscroll"  href="#ABOUT" title="">ABOUT</a></li>
-						<li><a class="smoothscroll"  href="#SERVICE" title="">SERVICE</a></li>
-						<li><a class="smoothscroll"  href="#WORK" title="">WORK</a></li>
-						<li><a class="smoothscroll"  href="#BLOG" title="">BLOG</a></li>				
-						<li><a class="smoothscroll"  href="#CONTACT" title="">CONTACT</a></li>
-						<div class="col">
-							<div class="container-form">
-								<form action="form.php">
-									<input type="text" id="search-form" name="search" placeholder="Search">
-									<button class="one">
-										<i class="fas fa-shopping-cart"></i>
-									</button>
-									<input class="search" placeholder=" Search" type="text">
-									<button>
-										<i class="fas fa-search"></i>
-									</button>
-								</form>
-							</div>
-						</div>
-					</ul>
-				</nav>
-				<a class="menu-toggle" href="#"><span>Menu</span></a>
-	   		</div>
-	   	</div>
-
-	   	<section id="intro">
-		   	<div class="intro-content">
-		   		<div class="row">
-			   		<div class="title">
-						<h3>Creative Template</h3>
-						<h1>WELCOME <br> TO MOGO</h1>
-						<hr>
-						<a href=""><button>LEARN MORE</button></a>
-					</div>
-					<div class="input">
-						<div class="title1">
-							<h2><b>01</b> INTRO</h2>
-						</div>
-						<div class="title1">
-							<h2><b>02</b> WORK</h2>
-						</div>
-						<div class="title1">
-							<h2><b>03</b> ABOUT</h2>
-						</div>
-						<div class="title1">
-							<h2><b>04</b> CONTACTS</h2>
-						</div>
-					</div> 
-		   		</div>   		 		
-		   	</div>	 	
-	    </section> 	
-   	
+    <header>
+        <div class="container">
+            <div class="header_grid">
+                <div class="header_logo">
+                    <a href="#">MoGo</a>
+                </div>
+                <div class="header_menu">
+                    <button class="header_menu_btn"></button>
+                    <ul class="header_menu_nav">
+                        <li class="header_menu_nav_item"><a href="#About" title="">About</a></li>
+                        <li class="header_menu_nav_item"><a href="#Service" title="">Service</a></li>
+                        <li class="header_menu_nav_item"><a href="#Work" title="">Work</a></li>
+                        <li class="header_menu_nav_item"><a href="#Blog" title="">Blog</a></li>
+                        <li class="header_menu_nav_item"><a href="#Contact" title="">Contact</a></li>
+                    </ul>
+                    <form class="form">
+                        <input type="search">
+                        <input type="image" src="img/home/search.svg">
+                    </form>
+                </div>
+            </div>
+        </div>
     </header>
-
-    <div class="container" id="ABOUT">
-		<div class="row">
-			<h3>What we do</h3>
-			<h2>STORY ABOUT US</h2>
-			<hr>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<div class="image">
-				<div class="img">
-					<div class="item">
-						<img class="foto" src="img/story-1.jpg" alt="">
-						<div class="overlay">
-							<img src="img/users-hover.png" alt="">
-							<h2>SUPER TEAM</h2>
-						</div>
-					</div>
-				</div>
-				<div class="img">
-					<div class="item">
-						<img class="foto" src="img/story-2.jpg" alt="">
-						<div class="overlay">
-							<img src="img/users-hover.png" alt="">
-							<h2>SUPER TEAM</h2>
-						</div>
-					</div>
-				</div>
-				<div class="img">
-					<div class="item">
-						<img class="foto" src="img/story-3.jpg" alt="">
-						<div class="overlay">
-							<img src="img/users-hover.png" alt="">
-							<h2>SUPER TEAM</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<section id="stats" class="count-up">
-
-		<div class="row">
-			<div class="col-twelve">
-				<div class="stats-list">
-					<hr class="hr">
-					<div class="bgrid stat">
-						<h2 class="stat-count">42</h2>
-						<h4 class="stat-title">
-							WEB DISIGN PROJECTS
-						</h4>
-					</div>					
-					<hr class="hr">
-					<div class="bgrid stat">
-						<h2 class="stat-count">123</h2>
-						<h4 class="stat-title">
-							HAPPY CLIENT
-						</h4>
-					</div>
-					<hr class="hr">
-					<div class="bgrid stat">
-						<h2 class="stat-count">15</h2>
-						<h4 class="stat-title">
-							AWARD WINNER
-						</h4>
-					</div>
-					<hr class="hr">			
-					<div class="bgrid stat">
-						<h2 class="stat-count">99</h2>
-						<h4 class="stat-title">
-							CUP OF COFFEE
-						</h4>
-					</div>
-					<hr class="hr">
-					<div class="bgrid stat">
-						<h2 class="stat-count">24</h2>
-						<h4 class="stat-title">
-							MEMBERS
-						</h4>
-					</div>
-					<hr class="hr">
-				</div>
-			</div>
-		</div>
-
-	</section>
-
-	<div class="services">
-		<div class="item-services">
-			<div class="title">
-				<h3>We work with</h3>
-				<h2>AMAZING SERVICES</h2>
-			</div>
-			<hr>
-			<div class="image">
-				<div class="img asd">
-					<div class="title">
-						<div class="one">
-							<img src="img/services-1.png" alt="">
-						</div>
-						<div class="two">
-							<h2>PHOTOGRAPHY</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-						</div>
-					</div>
-				</div>
-				<div class="img asd">
-					<div class="title">
-						<div class="one">
-							<img src="img/services-2.png" alt="">
-						</div>
-						<div class="two">
-							<h2>WEB DESIGN</h2>
-							<p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-						</div>
-					</div>
-				</div>
-				<div class="img asd">
-					<div class="title">
-						<div class="one">
-							<img src="img/services-3.png" alt="">
-						</div>
-						<div class="two">
-							<h2>CREATIVITY</h2>
-							<p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-						</div>
-					</div>
-				</div>
-				<div class="hr">
-					<hr>
-				</div>
-				<div class="img qwe">
-					<div class="title">
-						<div class="one">
-							<img src="img/services-4.png" alt="">
-						</div>
-						<div class="two">
-							<h2>SEO</h2>
-							<p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-						</div>
-					</div>
-				</div>
-				<div class="img qwe">
-					<div class="title">
-						<div class="one">
-							<img src="img/services-5.png" alt="">
-						</div>
-						<div class="two">
-							<h2>CSS/HTML</h2>
-							<p>Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
-						</div>
-					</div>
-				</div>
-				<div class="img qwe">
-					<div class="title">
-						<div class="one">
-							<img src="img/services-6.png" alt="">
-						</div>
-						<div class="two">
-							<h2>DIGITAL</h2>
-							<p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="desing">
-		<div class="item-desing">
-			<div class="image">
-				<div class="item">
-					<h3>For all devices</h3>
-					<h2>UNIQUE DESIGN</h2>
-					<hr>
-				</div>
-			</div>
-			<div class="item-img1">
-				<img src="img/design-1.png" alt="">
-			</div>
-			<div class="item-img2">
-				<img src="img/design-2.png" alt="">
-			</div>
-		</div>
-	</div>
-
-	<div id="SERVICE" class="service">
-		<div class="row">
-			<div class="text">
-				<h3>Service</h3>
-				<h2>WHAT WE DO</h2>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</div>
-			<div class="image">
-				<div class="img">
-					<img src="img/service.jpg" alt="">
-				</div>
-				<div class="content">
-					<div class="item-content">
-						<h3 class="newstitle"><img src="img/icon-1.png" alt="">PHOTOGRAPHY</h3>
-						<div class="newscontent">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<h3 class="newstitle asd"><img src="img/icon-2.png" alt="">CREATIVITY</h3>
-						<div class="newscontent">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<h3 class="newstitle qwe"><img src="img/icon-3.png" alt="">WEB DESIGN</h3>
-						<div class="newscontent">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="slider1">
-		<div class="next_button">
-			<img src="img/arrow-right.png" alt="">
-		</div>
-		<div class="prev_button">
-			<img src="img/arrow-left.png" alt="">
-		</div>
-		<div class="carousel">
-			<div class="slider-title">
-				<div class="left">
-					<div class="img">
-						<img class="img-1" src="img/jon-doe1.png" alt="">
-						<img class="img-2" src="img/jon-doe2.png" alt="">
-					</div>
-				</div>
-				<div class="right">
-					<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-					<hr>
-					<h3>Jon Doe</h3>
-				</div>
-			</div>			
-			<div class="slider-title">
-				<div class="left">
-					<div class="img">
-						<img class="img-1" src="img/jon-doe1.png" alt="">
-						<img class="img-2" src="img/jon-doe2.png" alt="">
-					</div>
-				</div>
-				<div class="right">
-					<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-					<hr>
-					<h3>Jon Doe</h3>
-				</div>
-			</div>			
-			<div class="slider-title">
-				<div class="left">
-					<div class="img">
-						<img class="img-1" src="img/jon-doe1.png" alt="">
-						<img class="img-2" src="img/jon-doe2.png" alt="">
-					</div>
-				</div>
-				<div class="right">
-					<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-					<hr>
-					<h3>Jon Doe</h3>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="people">
-		<div class="row">
-			<div class="text">
-				<h3>Who we are</h3>
-				<h2>MEET OUR TEAM</h2>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</div>
-			<div class="image">
-				<div class="item">
-					<div class="item-img">
-						<div class="img">
-							<img class="foto" src="img/men-1.jpg" alt="">
-							<div class="overlay">
-								<div class="icon">
-									<a href="https://www.facebook.com/"><img src="img/facebook.png" alt=""></a>
-								</div>
-								<div class="icon">
-									<a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
-								</div>
-								<div class="icon">
-									<a href="https://ru.pinterest.com/"><img src="img/pinterest.png" alt=""></a>
-								</div>
-								<div class="icon">
-									<a href="https://www.instagram.com/"><img src="img/instagram.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="title">
-						<h2>MATTHEW DIX</h2>
-						<h3>Graphic Design</h3>
-					</div>
-				</div>
-				<div class="item">
-					<div class="item-img">
-						<div class="img">
-							<img class="foto" src="img/men-2.jpg" alt="">
-							<div class="overlay">
-								<div class="icon">
-									<a href="https://www.facebook.com/"><img src="img/facebook.png" alt=""></a>
-								</div>
-								<div class="icon">
-									<a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
-								</div>
-								<div class="icon">
-									<a href="https://ru.pinterest.com/"><img src="img/pinterest.png" alt=""></a>
-								</div>
-								<div class="icon">
-									<a href="https://www.instagram.com/"><img src="img/instagram.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="title">
-						<h2>CHRISTOPHER CAMPBELL</h2>
-						<h3>Branding/UX design</h3>
-					</div>
-				</div>
-				<div class="item">
-					<div class="item-img">
-						<div class="img">
-							<img class="foto" src="img/men-3.jpg" alt="">
-							<div class="overlay">
-								<div class="icon">
-									<a href="https://www.facebook.com/"><img src="img/facebook.png" alt=""></a>
-								</div>
-								<div class="icon">
-									<a href="https://twitter.com"><img src="img/twitter.png" alt=""></a>
-								</div>
-								<div class="icon">
-									<a href="https://ru.pinterest.com/"><img src="img/pinterest.png" alt=""></a>
-								</div>
-								<div class="icon">
-									<a href="https://www.instagram.com/"><img src="img/instagram.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="title">
-						<h2>MICHAEL FERTIG</h2>
-						<h3>Developer</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="hipster">
-		<img src="img/logo.jpg" alt="">
-	</div>
-
-	<div class="work" id="WORK">
-		<div class="row">
-			<div class="text">
-				<h3>What we do</h3>
-				<h2>SOME OF OUR WORK</h2>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</div>
-			<div class="portfolio">
-				<div class="one">
-					<img src="img/img-1.jpg" alt="">
-					<div class="overlay">
-						<img src="img/PICTURE.png" alt="">
-						<h2>CREATIVELY DESIGNED</h2>
-						<p>Lorem ipsum dolor sit</p>
-					</div>
-				</div>
-				<div class="two">
-					<img src="img/img-2.jpg" alt="">
-					<div class="overlay">
-						<img src="img/PICTURE.png" alt="">
-						<h2>CREATIVELY DESIGNED</h2>
-						<p>Lorem ipsum dolor sit</p>
-					</div>
-				</div>
-				<div class="three">
-					<img src="img/img-3.jpg" alt="">
-					<div class="overlay">
-						<img src="img/PICTURE.png" alt="">
-						<h2>CREATIVELY DESIGNED</h2>
-						<p>Lorem ipsum dolor sit</p>
-					</div>
-				</div>
-				<div class="four">
-					<img src="img/img-4.jpg" alt="">
-					<div class="overlay">
-						<img src="img/PICTURE.png" alt="">
-						<h2>CREATIVELY DESIGNED</h2>
-						<p>Lorem ipsum dolor sit</p>
-					</div>
-				</div>
-				<div class="five">
-					<img src="img/img-5.jpg" alt="">
-					<div class="overlay">
-						<img src="img/PICTURE.png" alt="">
-						<h2>CREATIVELY DESIGNED</h2>
-						<p>Lorem ipsum dolor sit</p>
-					</div>
-				</div>
-				<div class="six">
-					<img src="img/img-6.jpg" alt="">
-					<div class="overlay">
-						<img src="img/PICTURE.png" alt="">
-						<h2>CREATIVELY DESIGNED</h2>
-						<p>Lorem ipsum dolor sit</p>
-					</div>
-				</div>
-				<div class="seven">
-					<img src="img/img-7.jpg" alt="">
-					<div class="overlay">
-						<img src="img/PICTURE.png" alt="">
-						<h2>CREATIVELY DESIGNED</h2>
-						<p>Lorem ipsum dolor sit</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="slider2">
-		<div class="next_button">
-			<img src="img/arrow-right.png" alt="">
-		</div>
-		<div class="prev_button">
-			<img src="img/arrow-left.png" alt="">
-		</div>
-		<div class="carousel">
-			<div class="slider-title">
-				<div class="left">
-					<img src="img/joshua.jpg" alt="">
-				</div>
-				<div class="right">
-					<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-					<hr>
-					<h3>Joshua Earle</h3>
-				</div>
-			</div>			
-			<div class="slider-title">
-				<div class="left">
-					<img src="img/joshua.jpg" alt="">
-				</div>
-				<div class="right">
-					<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-					<hr>
-					<h3>Joshua Earle</h3>
-				</div>
-			</div>			
-			<div class="slider-title">
-				<div class="left">
-					<img src="img/joshua.jpg" alt="">
-				</div>
-				<div class="right">
-					<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
-					<hr>
-					<h3>Joshua Earle</h3>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="clients">
-		<div class="row">
-			<div class="text-item">
-				<h3>Happy Clients</h3>
-				<h2>WHAT PEOPLE SAY</h2>
-				<hr>
-			</div>
-			<div class="image">
-				<div class="title">
-					<div class="item">
-						<div class="one">
-							<img src="img/people-1.jpg" alt="">
-						</div>
-						<div class="two">
-							<h2>MATTHEW DIX</h2>
-							<h3>Graphic Design</h3>
-							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi</p>
-						</div>
-					</div>
-				</div>
-				<div class="title">
-					<div class="item">
-						<div class="one">
-							<img src="img/people-2.jpg" alt="">
-						</div>
-						<div class="two">
-							<h2>NICK KARVOUNIS</h2>
-							<h3>Graphic Design</h3>
-							<hr>
-							<p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-						</div>
-					</div>
-				</div>
-				<div class="title">
-					<div class="item">
-						<div class="one">
-							<img src="img/people-3.jpg" alt="">
-						</div>
-						<div class="two">
-							<h2>JAELYNN CASTILLO </h2>
-							<h3>Graphic Design</h3>
-							<hr>
-							<p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni</p>
-						</div>
-					</div>
-				</div>
-				<div class="title">
-					<div class="item">
-						<div class="one">
-							<img src="img/people-4.jpg" alt="">
-						</div>
-						<div class="two">
-							<h2>MIKE PETRUCCI</h2>
-							<h3>Graphic Design</h3>
-							<hr>
-							<p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-						</div>
-					</div>
-				</div>	
-			</div>
-		</div>
-	</div>
-
-	<div id="BLOG" class="blog">
-		<div class="row">
-			<div class="text">
-				<h3>Our stories</h3>
-				<h2>LATEST BLOG</h2>
-			</div>
-			<hr>
-			<div class="image">
-				<div class="img">
-					<img class="one" src="img/stories-1.jpg" alt="">
-					<img class="two" src="img/blog-fon.png" alt="">
-					<h3><b>15</b> <br> Jan</h3>
-					<h2>
-						LOREM IPSUM DOLOR SIT AMET
-					</h2>
-					<p>
-						Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-					<hr class="hr">
-					<div class="icon">
-						<img src="img/blog-icon-1.png" alt="">542
-						<img src="img/blog-icon-2.png" alt="">17
-					</div>
-				</div>
-				<div class="img">
-					<img class="one" src="img/stories-2.jpg" alt="">
-					<img class="two" src="img/blog-fon.png" alt="">
-					<h3><b>14</b> <br> Jan</h3>
-					<h2>
-						SED DO EIUSMOD TEMPOS
-					</h2>
-					<p>
-						Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-					<hr class="hr">
-					<div class="icon">
-						<img src="img/blog-icon-1.png" alt="">992
-						<img src="img/blog-icon-2.png" alt="">42
-					</div>
-				</div>
-				<div class="img">
-					<img class="one" src="img/stories-3.jpg" alt="">
-					<img class="two" src="img/blog-fon.png" alt="">
-					<h3><b>12</b> <br> Jan</h3>
-					<h2>
-						INCIDIDUNT UT LABORE ET DOLORE
-					</h2>
-					<p>
-					Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-					<hr class="hr">
-					<div class="icon">
-						<img src="img/blog-icon-1.png" alt="">1560
-						<img src="img/blog-icon-2.png" alt="">98
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="map">
-		<div class="row">
-			<img src="img/map.png" alt="">
-			<a href="#"><h2>OPEN MAP</h2></a>
-			<hr>
-		</div>
-	</div>
-
-	<div id="CONTACT" class="mogo">
-		<div class="row">
-			<div class="image">
-				<div class="mogos">
-					<img src="img/mogo.png" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<h2>15K <b>followers</b></h2>
-					<hr>
-					<h3>Follow Us: 
-						<a href="" class="one"><img src="img/social-1.png" alt=""></a>
-						<a href=""><img src="img/social-2.png" alt=""></a>
-						<a href=""><img src="img/social-3.png" alt=""></a>
-						<a href=""><img src="img/social-4.png" alt=""></a>
-						<a href=""><img src="img/social-5.png" alt=""></a>
-						<a href=""><img src="img/social-6.png" alt=""></a>
-						<a href=""><img src="img/social-7.png" alt=""></a>
-						<a href=""><img src="img/social-8.png" alt=""></a>
-					</h3>
-					<form class="group form" action="form/sendmail.php" data-them="Тема письма" data-show=".thank">
-		               	<div class="row">
-		               		<div class="left">
-		               			<input type="text" name="email" data-name="E-mail: " placeholder="Your Email..." class="email" required="">	
-					   		</div>
-
-					   		<div class="right">
-					   			<input class="button" type="submit" value="SUBSCRIBE">
-					   		</div>				   		
-		               	</div>
-					</form>
-				</div>
-				<div class="blog">
-					<div class="h2">
-						<h2>BLOGS</h2>
-					</div>
-					<div class="qwe1">
-						<img src="img/blog-1.jpg" alt="">
-						<div class="rew">
-							<h2>
-								LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING
-							</h2>
-							<p>Jan 9, 2016</p>
-						</div>
-					</div>
-					<div class="qwe2">
-						<img src="img/blog-2.jpg" alt="">
-						<div class="rew">
-							<h2>
-								CONSECTETUR ADIPISCING ELIT. SED DO EIUSMOD TEMPOR
-							</h2>
-							<p>
-								Jan 9, 2016
-							</p>
-						</div>
-					</div>
-					<div class="qwe3">
-						<img src="img/blog-3.jpg" alt="">
-						<div class="rew">
-							<h2>
-								SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE
-							</h2>
-							<p>
-								Jan 9, 2016
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="instagram">
-					<h2>INSTAGRAM</h2>
-					<img class="one" src="img/instagram-1.jpg" alt="">
-					<img src="img/instagram-2.jpg" alt="">
-					<img src="img/instagram-3.jpg" alt="">
-					<img class="two" src="img/instagram-4.jpg" alt="">
-					<img src="img/instagram-5.jpg" alt="">
-					<img src="img/instagram-6.jpg" alt="">
-					<img class="three" src="img/instagram-7.jpg" alt="">
-					<img src="img/instagram-8.jpg" alt="">
-					<img src="img/instagram-9.jpg" alt="">
-					<p>View more photos</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="hr">
+<div class="intro">
+    <div class="container">
+        <div class="intro_title">
+            <h3>Creative Template</h3>
+            <h1>Welcome <span>to mogo</span></h1>
+            <hr>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+<div class="about" id="About">
+    <div class="container">
+        <h3>What we do</h3>
+        <h2>Story about us</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="team">
+            <div class="team_item">
+                <img src="img/home/story-1.jpg" alt="">
+            </div>
+            <div class="team_item">
+                <img src="img/home/story-2.jpg" alt="">
+            </div>
+            <div class="team_item">
+                <img src="img/home/story-3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="stats">
+    <div class="container">
+        <div class="stats_list">
+            <div class="stats_list_item">
+                <h2 class="stats_list_item_count">42</h2>
+                <h4 class="stats_list_item_title">
+                    Web disign project
+                </h4>
+            </div>
+            <div class="stats_list_item">
+                <h2 class="stats_list_item_count">123</h2>
+                <h4 class="stats_list_item_title">
+                    Happy client
+                </h4>
+            </div>
+            <div class="stats_list_item">
+                <h2 class="stats_list_item_count">15</h2>
+                <h4 class="stats_list_item_title">
+                    Award winner
+                </h4>
+            </div>
+            <div class="stats_list_item">
+                <h2 class="stats_list_item_count">99</h2>
+                <h4 class="stats_list_item_title">
+                    Cup of coffee
+                </h4>
+            </div>
+            <div class="stats_list_item">
+                <h2 class="stats_list_item_count">24</h2>
+                <h4 class="stats_list_item_title">
+                    Members
+                </h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="services" id="Services">
+    <div class="container">
+        <h3>We work with</h3>
+        <h2>Amazing services</h2>
+        <hr>
+        <div class="services_work">
+            <div class="services_work_item">
+                <div class="services_work_item_img">
+                    <img src="img/home/services-1.png" alt="">
+                </div>
+                <div class="services_work_item_title">
+                    <h2>Photography</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="services_work_item">
+                <div class="services_work_item_img">
+                    <img src="img/home/services-2.png" alt="">
+                </div>
+                <div class="services_work_item_title">
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="services_work_item">
+                <div class="services_work_item_img">
+                    <img src="img/home/services-3.png" alt="">
+                </div>
+                <div class="services_work_item_title">
+                    <h2>Creativity</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="services_work_item">
+                <div class="services_work_item_img">
+                    <img src="img/home/services-4.png" alt="">
+                </div>
+                <div class="services_work_item_title">
+                    <h2>Seo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="services_work_item">
+                <div class="services_work_item_img">
+                    <img src="img/home/services-5.png" alt="">
+                </div>
+                <div class="services_work_item_title">
+                    <h2>Css/Html</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="services_work_item">
+                <div class="services_work_item_img">
+                    <img src="img/home/services-6.png" alt="">
+                </div>
+                <div class="services_work_item_title">
+                    <h2>Digital</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="design">
+    <div class="container">
+        <h3>For all devices</h3>
+        <h2>UNIQUE DESIGN</h2>
+        <hr>
+        <div class="design_image">
+            <img src="img/home/design-1.png" alt="">
+            <img src="img/home/design-2.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="service">
+	<div class="container">
+		<h3>For all devices</h3>
+		<h2>UNIQUE DESIGN</h2>
 		<hr>
-	</div>
-
-	<footer>
-		<div>
-			&copy; 2016 MoGo free PSD template by <a href="">Laaqiq</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+			magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+			commodo consequat.</p>
+		<div class="service_main">
+			<div class="service_main_img">
+				<img src="img/home/service.jpg" alt="">
+			</div>
+			<div class="service_main_accordion">
+				<h3 class="service_main_accordion_newstitle"><img src="img/home/icon-1.png" alt="">Photography</h3>
+				<div class="service_main_accordion_newscontent">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<h3 class="service_main_accordion_newstitle"><img src="img/home/icon-2.png" alt="">Creativity</h3>
+				<div class="service_main_accordion_newscontent">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<h3 class="service_main_accordion_newstitle"><img src="img/home/icon-3.png" alt="">Web design</h3>
+				<div class="service_main_accordion_newscontent">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
 		</div>
-	</footer>
+	</div>
+</div>
+<div class="first">
+    <div class="container">
+        <div class="carousel">
+            <div class="carousel_item">
+                <div class="carousel_item_left">
+                    <img src="img/home/jon-doe.png" alt="">
+                </div>
+                <div class="carousel_item_right">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <div class="carousel_item_right_name">
+                        <hr>
+                        <h3>Jon Doe</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel_item">
+                <div class="carousel_item_left">
+                    <img src="img/home/jon-doe.png" alt="">
+                </div>
+                <div class="carousel_item_right">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <div class="carousel_item_right_name">
+                        <hr>
+                        <h3>Jon Doe</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel_item">
+                <div class="carousel_item_left">
+                    <img src="img/home/jon-doe.png" alt="">
+                </div>
+                <div class="carousel_item_right">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <div class="carousel_item_right_name">
+                        <hr>
+                        <h3>Jon Doe</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="team">
+    <div class="container">
+        <h3>Who we are</h3>
+        <h2>Meet our team</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.</p>
+        <div class="team_people">
+            <div class="team_people_item">
+                <div class="team_people_item_men">
+                    <img src="img/home/men-1.jpg" alt="">
+                    <div class="team_people_item_men_overlay">
+                        <a href="https://www.facebook.com/"></a>
+                        <a href="https://www.twitter.com"></a>
+                        <a href="https://www.pinterest.com/"></a>
+                        <a href="https://www.instagram.com/"></a>
+                    </div>
+                </div>
+                <h2>Matthew Dix</h2>
+                <h3>Graphic Design</h3>
+            </div>
+            <div class="team_people_item">
+                <div class="team_people_item_men">
+                    <img src="img/home/men-2.jpg" alt="">
+                    <div class="team_people_item_men_overlay">
+                        <a href="https://www.facebook.com/"></a>
+                        <a href="https://www.twitter.com"></a>
+                        <a href="https://www.pinterest.com/"></a>
+                        <a href="https://www.instagram.com/"></a>
+                    </div>
+                </div>
+                <h2>Christopher Cambell</h2>
+                <h3>Branding/UX design</h3>
+            </div>
+            <div class="team_people_item">
+                <div class="team_people_item_men">
+                    <img src="img/home/men-3.jpg" alt="">
+                    <div class="team_people_item_men_overlay">
+                        <a href="https://www.facebook.com/"></a>
+                        <a href="https://www.twitter.com"></a>
+                        <a href="https://www.pinterest.com/"></a>
+                        <a href="https://www.instagram.com/"></a>
+                    </div>
+                </div>
+                <h2>Michael Fertig</h2>
+                <h3>Developer</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hipster">
+    <div class="container">
+        <div class="hipster_logo">
+            <a href="#"><img src="img/home/hipster-1.png" alt=""></a>
+            <a href="#"><img src="img/home/hipster-2.png" alt=""></a>
+            <a href="#"><img src="img/home/hipster-3.png" alt=""></a>
+            <a href="#"><img src="img/home/hipster-4.png" alt=""></a>
+            <a href="#"><img src="img/home/hipster-5.png" alt=""></a>
+            <a href="#"><img src="img/home/hipster-6.png" alt=""></a>
+        </div>
+    </div>
+</div>
+<div class="work">
+    <div class="container">
+        <div class="work_designer">
+            <div class="work_designer_items">
+                <div class="work_designer_items_item"></div>
+                <div class="work_designer_items_overlay">
+                    <img src="img/home/PICTURE.png" alt="">
+                    <h2> Creatively designer</h2>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+            <div class="work_designer_items">
+                <div class="work_designer_items_item"></div>
+                <div class="work_designer_items_overlay">
+                    <img src="img/home/PICTURE.png" alt="">
+                    <h2> Creatively designer</h2>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+            <div class="work_designer_items">
+                <div class="work_designer_items_item"></div>
+                <div class="work_designer_items_overlay">
+                    <img src="img/home/PICTURE.png" alt="">
+                    <h2> Creatively designer</h2>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+            <div class="work_designer_items">
+                <div class="work_designer_items_item"></div>
+                <div class="work_designer_items_overlay">
+                    <img src="img/home/PICTURE.png" alt="">
+                    <h2> Creatively designer</h2>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+            <div class="work_designer_items">
+                <div class="work_designer_items_item"></div>
+                <div class="work_designer_items_overlay">
+                    <img src="img/home/PICTURE.png" alt="">
+                    <h2> Creatively designer</h2>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+            <div class="work_designer_items">
+                <div class="work_designer_items_item"></div>
+                <div class="work_designer_items_overlay">
+                    <img src="img/home/PICTURE.png" alt="">
+                    <h2> Creatively designer</h2>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+            <div class="work_designer_items">
+                <div class="work_designer_items_item"></div>
+                <div class="work_designer_items_overlay">
+                    <img src="img/home/PICTURE.png" alt="">
+                    <h2> Creatively designer</h2>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="second">
+    <div class="container">
+        <div class="carousel">
+            <div class="carousel_item">
+                <div class="carousel_item_left">
+                    <img src="img/home/joshua.jpg" alt="">
+                </div>
+                <div class="carousel_item_right">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <div class="carousel_item_right_name">
+                        <hr>
+                        <h3>Joshua Earle</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel_item">
+                <div class="carousel_item_left">
+                    <img src="img/home/joshua.jpg" alt="">
+                </div>
+                <div class="carousel_item_right">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <div class="carousel_item_right_name">
+                        <hr>
+                        <h3>Joshua Earle</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel_item">
+                <div class="carousel_item_left">
+                    <img src="img/home/joshua.jpg" alt="">
+                </div>
+                <div class="carousel_item_right">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <div class="carousel_item_right_name">
+                        <hr>
+                        <h3>Joshua Earle</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clients">
+    <div class="container">
+        <h3>Happy Clients</h3>
+        <h2>What people say</h2>
+        <hr>
+        <div class="clients_say">
+            <div class="clients_say_item">
+                <div class="clients_say_item_image"><img src="img/home/people-1.jpg" alt=""></div>
+                <div class="clients_say_item_title">
+                    <h2>Matthew Dix</h2>
+                    <h3>Graphic Design</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad mi</p>
+                </div>
+            </div>
+            <div class="clients_say_item">
+                <div class="clients_say_item_image"><img src="img/home/people-2.jpg" alt=""></div>
+                <div class="clients_say_item_title">
+                    <h2>Nick Karvounis</h2>
+                    <h3>Graphic Design</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad mi</p>
+                </div>
+            </div>
+            <div class="clients_say_item">
+                <div class="clients_say_item_image"><img src="img/home/people-3.jpg" alt=""></div>
+                <div class="clients_say_item_title">
+                    <h2>Jaelynn Castillo</h2>
+                    <h3>Graphic Design</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad mi</p>
+                </div>
+            </div>
+            <div class="clients_say_item">
+                <div class="clients_say_item_image"><img src="img/home/people-4.jpg" alt=""></div>
+                <div class="clients_say_item_title">
+                    <h2>Mick Petrucci</h2>
+                    <h3>Graphic Design</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad mi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="blog">
+    <div class="container">
+        <h3>Our stories</h3>
+        <h2>Latest blog</h2>
+        <hr>
+        <div class="blog_stories">
+            <div class="blog_stories_item">
+                <img src="img/home/stories-1.jpg" alt="">
+                <div class="blog_stories_item_date">
+                    <h3>15</h3>
+                    <p>Jan</p>
+                </div>
+                <h2>
+                    Lorem ipsum dolor sit amet.
+                </h2>
+                <p>
+                    Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="blog_stories_item_icon">
+                    <img src="img/home/blog-icon-1.png" alt=""><span>542</span>
+                    <img src="img/home/blog-icon-2.png" alt=""><span>17</span>
+                </div>
+            </div>
+            <div class="blog_stories_item">
+                <img src="img/home/stories-2.jpg" alt="">
+                <div class="blog_stories_item_date">
+                    <h3>14</h3>
+                    <p>Jan</p>
+                </div>
+                <h2>
+                    Lorem ipsum dolor sit amet.
+                </h2>
+                <p>
+                    Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="blog_stories_item_icon">
+                    <img src="img/home/blog-icon-1.png" alt=""><span>763</span>
+                    <img src="img/home/blog-icon-2.png" alt=""><span>31</span>
+                </div>
+            </div>
+            <div class="blog_stories_item">
+                <img src="img/home/stories-3.jpg" alt="">
+                <div class="blog_stories_item_date">
+                    <h3>12</h3>
+                    <p>Jan</p>
+                </div>
+                <h2>
+                    Lorem ipsum dolor sit amet.
+                </h2>
+                <p>
+                    Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="blog_stories_item_icon">
+                    <img src="img/home/blog-icon-1.png" alt=""><span>1756</span>
+                    <img src="img/home/blog-icon-2.png" alt=""><span>99</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="map">
+    <div class="container">
+        <a href="https://goo.gl/maps/y4fLDaeTkXSvoirA6">
+            <img src="img/home/map.svg" alt="">
+            <h2>Open map</h2>
+            <hr>
+        </a>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="subscribe">
+            <div class="subscribe_item">
+                <div class="subscribe_item_title">
+                    <a href="#">MoGo</a>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+                <h2>15K <b>followers</b></h2>
+                <div class="subscribe_item_social">
+                    <p>Follow Us:</p>
+                    <a href="#"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="96.124px" height="96.123px" viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;"
+                             xml:space="preserve">
+                        <g>
+                            <path class="a" d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+                                c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+                                c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+                                c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        </svg>
+                        </a>
+                    <a href="#"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path class="a" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                                    c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                                    c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                                    c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                                    c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                                    c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                                    C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                                    C480.224,136.96,497.728,118.496,512,97.248z"/>
+                            </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        </svg>
+                        </a>
+                    <a href="#"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="169.063px" height="169.063px" viewBox="0 0 169.063 169.063" style="enable-background:new 0 0 169.063 169.063;"
+                             xml:space="preserve">
+                        <g>
+                            <path class="a" d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752
+                                c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407
+                                c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752
+                                c17.455,0,31.656,14.201,31.656,31.655V122.407z"/>
+                            <path class="a" d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561
+                                C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561
+                                c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z"/>
+                            <path class="a" d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78
+                                c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78
+                                C135.661,29.421,132.821,28.251,129.921,28.251z"/>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        </svg>
+                        </a>
+                    <a href="#"><svg id="Bold" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path class="a" d="m12.326 0c-6.579.001-10.076 4.216-10.076 8.812 0 2.131 1.191 4.79 3.098 5.633.544.245.472-.054.94-1.844.037-.149.018-.278-.102-.417-2.726-3.153-.532-9.635 5.751-9.635 9.093 0 7.394 12.582 1.582 12.582-1.498 0-2.614-1.176-2.261-2.631.428-1.733 1.266-3.596 1.266-4.845 0-3.148-4.69-2.681-4.69 1.49 0 1.289.456 2.159.456 2.159s-1.509 6.096-1.789 7.235c-.474 1.928.064 5.049.111 5.318.029.148.195.195.288.073.149-.195 1.973-2.797 2.484-4.678.186-.685.949-3.465.949-3.465.503.908 1.953 1.668 3.498 1.668 4.596 0 7.918-4.04 7.918-9.053-.016-4.806-4.129-8.402-9.423-8.402z"/></svg></a>
+                    <a href="#"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <polygon class="a" points="448,224 448,160 416,160 416,224 352,224 352,256 416,256 416,320 448,320 448,256 512,256 512,224 		"/>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path class="a" d="M160,224v64h90.528c-13.216,37.248-48.8,64-90.528,64c-52.928,0-96-43.072-96-96c0-52.928,43.072-96,96-96
+                                    c22.944,0,45.024,8.224,62.176,23.168l42.048-48.256C235.424,109.824,198.432,96,160,96C71.776,96,0,167.776,0,256
+                                    s71.776,160,160,160s160-71.776,160-160v-32H160z"/>
+                            </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        </svg>
+                        </a>
+                    <a href="#"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
+                        <g id="XMLID_822_">
+                            <path class="a" id="XMLID_823_" d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938
+                                C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527
+                                C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991
+                                c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764
+                                c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861
+                                C204.394,157.263,202.325,160.684,199.021,162.41z"/>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        </svg>
+                        </a>
+                    <a href="#"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="488.839px" height="488.839px" viewBox="0 0 488.839 488.839" style="enable-background:new 0 0 488.839 488.839;"
+                             xml:space="preserve">
+                        <g>
+                            <g id="_x31_4_26_">
+                                <g>
+                                    <path class="a" d="M264.32,39.487c5.529-7.328,4.64-22.871,3.853-36.582c-0.03-0.591-0.063-1.169-0.096-1.756
+                                        C260.327,0.409,252.482,0,244.542,0c-30.425,0-59.537,5.605-86.406,15.766c19.167,9.211,48.836,25.065,81.814,48.49
+                                        C251.202,54.573,259.688,45.634,264.32,39.487z"/>
+                                    <path class="a" d="M388.163,178.955c-12.047,1.361-22.207,3.338-30.896,6.111c41.537,72.522,57.732,164.145,61.695,230.522
+                                        c41.15-41.928,67.283-98.609,69.754-161.393C460.362,219.343,422.8,175.026,388.163,178.955z"/>
+                                    <path class="a" d="M141.232,116.356c29.185-6.073,56.604-20.762,78.466-36.267c-45.608-31.412-83.648-47.714-91.215-50.817
+                                        C81.166,54.851,43.302,95.606,21.274,144.987c28.632-11.408,59.641-17.212,90.098-22.867
+                                        C121.225,120.29,131.41,118.399,141.232,116.356z"/>
+                                    <path class="a" d="M310.171,123.463c2.605,2.618,5.203,5.281,7.783,7.994c9.521,9.995,18.16,20.927,26.082,32.493
+                                        c11.537-4.356,25.119-7.445,41.377-9.283c38.307-4.333,72.369,26.012,101.604,59.42c-6.268-50.645-27.989-96.482-60.354-132.631
+                                        c-17.666,2.129-37.361,5.736-57.435,11.726C356.06,97.115,335.089,107.801,310.171,123.463z"/>
+                                    <path class="a" d="M278.011,249.688c10.025-33.955,21.637-58.432,44.135-74.32c-6.752-9.693-14.018-18.79-21.889-27.054
+                                        c-3.641-3.824-7.323-7.517-11.021-11.145c-90.263,61.439-213.906,174.3-225.149,272.086
+                                        c37.53,41.062,88.892,69.222,146.712,77.211c21.053-41.915,40.868-127.124,52.646-177.801
+                                        C269.104,284.324,273.988,263.307,278.011,249.688z"/>
+                                    <path class="a" d="M175.668,195.843c31.472-29.001,64.708-55.007,95.107-75.908c-10.133-8.965-20.297-17.229-30.275-24.808
+                                        c-25.249,18.98-58.307,37.674-94.291,45.158c-10.077,2.097-20.396,4.014-30.372,5.866
+                                        c-38.438,7.138-75.336,14.051-106.366,31.364c-6.043,21.271-9.348,43.697-9.348,66.905c0,51.917,16.238,100.02,43.839,139.604
+                                        C61.843,313.227,123.175,244.214,175.668,195.843z"/>
+                                    <path class="a" d="M291.829,105.975c29.078-18.538,54.147-31.356,70.412-36.211c14.606-4.362,28.934-7.539,42.502-9.856
+                                        c-31.353-27.245-69.678-46.663-111.986-55.127c0.938,17.07,1.347,35.811-8.922,49.427c-4.879,6.466-13.133,15.334-23.873,24.955
+                                        C270.48,87.35,281.169,96.278,291.829,105.975z"/>
+                                    <path class="a" d="M301.45,256.609c-3.816,12.928-8.63,33.625-14.199,57.588c-16.444,70.755-32.179,134.067-50.555,174.442
+                                        c2.609,0.083,5.217,0.199,7.846,0.199c56.963,0,109.328-19.539,150.885-52.206c-1.641-69.461-18.293-167.71-60.238-240.643
+                                        C318.921,208.08,310.165,227.101,301.45,256.609z"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        </svg>
+                        </a>
+                    <a href="#"><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 22.728 22.728" style="enable-background:new 0 0 22.728 22.728;" xml:space="preserve">
+                        <g>
+                            <path class="a" d="M12.573,4.94V0H9.385c-0.072,0.183-0.11,0.4-0.11,0.622C9.241,0.729,9.203,0.806,9.203,0.915
+                                c-0.328,1.829-1.28,3.11-2.892,3.807C5.835,4.94,5.397,4.975,4.921,4.94v3.987h2.342c0.039,5.603,0.039,8.493,0.039,8.64
+                                c0,0.11,0,0.22,0,0.332c0.294,2.449,1.573,3.914,3.843,4.463c0.914,0.257,1.901,0.366,2.892,0.366
+                                c1.279-0.036,2.525-0.256,3.771-0.659v-4.685c-0.731,0.22-1.395,0.402-1.977,0.583c-1.135,0.333-2.087,0.113-2.857-0.619
+                                c-0.073-0.11-0.183-0.257-0.221-0.403c-0.106-0.586-0.178-1.206-0.178-1.795V8.928h5.083V4.94H12.573z"/>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        </svg>
+                        </a>
+                </div>
+                <form class="subscribe_item_form">
+                    <input type="text" name="email" placeholder="Your Email..." required="">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+            <div class="subscribe_item">
+                <div class="subscribe_item_title">
+                    <p>Blogs</p>
+                </div>
+                <div class="subscribe_item_blogs">
+                    <div class="subscribe_item_blogs_item">
+                        <img src="img/home/blog-1.jpg" alt="">
+                        <div class="subscribe_item_blogs_item_title">
+                            <h2>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing.
+                            </h2>
+                            <p>Jan 9, 2016</p>
+                        </div>
+                    </div>
+                    <div class="subscribe_item_blogs_item">
+                        <img src="img/home/blog-2.jpg" alt="">
+                        <div class="subscribe_item_blogs_item_title">
+                            <h2>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing.
+                            </h2>
+                            <p>Jan 9, 2016</p>
+                        </div>
+                    </div>
+                    <div class="subscribe_item_blogs_item">
+                        <img src="img/home/blog-3.jpg" alt="">
+                        <div class="subscribe_item_blogs_item_title">
+                            <h2>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing.
+                            </h2>
+                            <p>Jan 9, 2016</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe_item">
+                <div class="subscribe_item_title">
+                    <p>Instagram</p>
+                </div>
+                <div class="subscribe_item_photo">
+                    <img src="img/home/instagram-1.jpg" alt="">
+                    <img src="img/home/instagram-2.jpg" alt="">
+                    <img src="img/home/instagram-3.jpg" alt="">
+                    <img src="img/home/instagram-4.jpg" alt="">
+                    <img src="img/home/instagram-5.jpg" alt="">
+                    <img src="img/home/instagram-6.jpg" alt="">
+                    <img src="img/home/instagram-7.jpg" alt="">
+                    <img src="img/home/instagram-8.jpg" alt="">
+                    <img src="img/home/instagram-9.jpg" alt="">
+                </div>
+                <a href="#">View more photos</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2016 MoGo free PSD template by <a href="#">Laaqiq</a></p>
+    </div>
+</footer>
 
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-	<script src="js/libs.min.js"></script>
-	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/maskedInput.js"></script>
+<script src="js/slick.carousel.js"></script>
+<script src="js/stats_plugin.js"></script>
+<script src="js/main.js"></script>
 
-	<script src="form/jquery.sendFormLP.js"></script>
-
-	<script src="js/list.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
-
-	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</script>
 
 </body>
-</html>
 
+</html>
