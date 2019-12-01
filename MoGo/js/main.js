@@ -14,14 +14,6 @@ $('.carousel').slick({
   }]
 });
 
-// menu 
-$(".header_menu_btn").click(function () {
-  $(".header_menu_nav").slideToggle(1000);
-  $(".header_menu_nav").toggleClass("open");
-  $(".form").slideToggle(1000);
-  $(".form").toggleClass("open");
-});
-
 // accordion
 var $uiAccordion = $('.service_main_accordion');
 
